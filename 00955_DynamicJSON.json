@@ -1,0 +1,121 @@
+[
+{
+    "resourceType": "Domain",
+    "identifier": {
+      "name": "Technical Domain 1",
+      "community": {
+        "name": "Technical Community"
+      }
+    },
+    "type": {
+      "name": "Data Asset Domain"
+    }
+  },
+  {
+    "resourceType": "Domain",
+    "identifier": {
+      "name": "Technical Domain 1",
+      "community": {
+        "name": "Technical Community"
+      }
+    },
+    "type": {
+      "name": "Data Asset Domain"
+    }
+  },
+  {
+    "resourceType": "Asset",
+    "identifier": {
+      "name": "Asset 1",
+      "domain": {
+        "name": "Business Data Domain 1",
+        "community": {
+          "name": "Data Community"
+        }
+      }
+    },
+    "type": {
+      "name": "Column"
+	}
+  },
+  {
+    "resourceType": "Asset",
+    "identifier": {
+      "name": "Asset 1",
+      "domain": {
+        "name": "Business Data Domain 1",
+        "community": {
+          "name": "Data Community"
+        }
+      }
+    },
+    "type": {
+      "name": "Column"
+    }
+  },
+  {
+    "resourceType": "Asset",
+    "identifier": {
+      "name": "Asset 1",
+      "domain": {
+        "name": "Business Data Domain 1",
+        "community": {
+          "name": "Data Community"
+        }
+      }
+    },
+    "type": {
+      "name": "Column"
+    }
+  },
+    {
+    "resourceType": "Complex Relation",
+    "complexRelationType": {
+      "name": "Field Mapping"
+    },
+    "attributes": {
+      "Transformation Logic": [
+        {
+          "value": "XXX_COLUMN_1"
+        }
+      ]
+    },
+	"identifier": {
+    "relations": {
+      "00000000-0000-0000-0000-000000007088:TARGET": [
+        {
+          "name": "Asset 2",
+          "domain": {
+            "name": "Data Asset Domain 1",
+            "community": {
+              "name": "Data Community"
+            }
+          }
+        }
+      ],
+      "00000000-0000-0000-0000-000000007089:TARGET": [
+        {
+          "name": "Table representation Asset",
+          "domain": {
+            "name": "Business Asset Domain 2",
+            "community": {
+              "name": "Business Community"
+            }
+          }
+        }
+      ],
+      "00000000-0000-0000-0000-000000007089:TARGET": [
+        {
+          "name": "Table representation Asset",
+          "domain": {
+            "name": "Business Asset Domain 3",
+            "community": {
+              "name": "Business Community"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+]
